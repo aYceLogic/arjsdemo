@@ -1,0 +1,11 @@
+Model Information:
+* title:	Plumbus (Keychain) Rick and Morty 3d printable
+* source:	https://sketchfab.com/3d-models/plumbus-keychain-rick-and-morty-3d-printable-424de72d353049e4b6dae7ffffa5fa95
+* author:	Nima Heydari (https://sketchfab.com/h3ydari96)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Plumbus (Keychain) Rick and Morty 3d printable" (https://sketchfab.com/3d-models/plumbus-keychain-rick-and-morty-3d-printable-424de72d353049e4b6dae7ffffa5fa95) by Nima Heydari (https://sketchfab.com/h3ydari96) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,8 @@
+Model Information:
+* title:	Donald Duck
+* source:	https://sketchfab.com/3d-models/donald-duck-82626143e321484489ca06a3805deb49
+* author:	Maxence Leret d'Aubigny (https://sketchfab.com/ahurig)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

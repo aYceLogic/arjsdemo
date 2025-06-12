@@ -1,0 +1,11 @@
+Model Information:
+* title:	Godzilla Atomic Breath
+* source:	https://sketchfab.com/3d-models/godzilla-atomic-breath-bbb903099e4f4441800741efba92e40c
+* author:	Cameraman (https://sketchfab.com/wannoischool01)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Godzilla Atomic Breath" (https://sketchfab.com/3d-models/godzilla-atomic-breath-bbb903099e4f4441800741efba92e40c) by Cameraman (https://sketchfab.com/wannoischool01) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

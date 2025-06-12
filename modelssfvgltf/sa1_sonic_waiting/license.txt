@@ -1,0 +1,11 @@
+Model Information:
+* title:	SA1 Sonic Waiting
+* source:	https://sketchfab.com/3d-models/sa1-sonic-waiting-e1aa87ac427d40f883982e8b28332636
+* author:	happy to upload (https://sketchfab.com/sonicloader)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SA1 Sonic Waiting" (https://sketchfab.com/3d-models/sa1-sonic-waiting-e1aa87ac427d40f883982e8b28332636) by happy to upload (https://sketchfab.com/sonicloader) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

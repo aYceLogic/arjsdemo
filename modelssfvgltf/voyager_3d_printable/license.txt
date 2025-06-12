@@ -1,0 +1,11 @@
+Model Information:
+* title:	Voyager (3D printable)
+* source:	https://sketchfab.com/3d-models/voyager-3d-printable-81b6fa85964e4261b661aea487cc0fa8
+* author:	NASA (https://sketchfab.com/NASA)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Voyager (3D printable)" (https://sketchfab.com/3d-models/voyager-3d-printable-81b6fa85964e4261b661aea487cc0fa8) by NASA (https://sketchfab.com/NASA) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

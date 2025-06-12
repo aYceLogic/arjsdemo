@@ -1,0 +1,396 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 515,
+      "max": [
+        4.462719917297363,
+        2.793299913406372,
+        0.0
+      ],
+      "min": [
+        -4.462719917297363,
+        -2.793299913406372,
+        -0.06265000253915787
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6180,
+      "componentType": 5126,
+      "count": 515,
+      "max": [
+        0.9996565580368042,
+        0.9999473094940186,
+        1.0
+      ],
+      "min": [
+        -0.999656617641449,
+        -0.9999473094940186,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1521,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12360,
+      "componentType": 5126,
+      "count": 4608,
+      "max": [
+        4.459360122680664,
+        2.7911999225616455,
+        0.05688999965786934
+      ],
+      "min": [
+        -4.459360122680664,
+        -2.7911999225616455,
+        -0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 67656,
+      "componentType": 5126,
+      "count": 4608,
+      "max": [
+        0.34239575266838074,
+        0.503139078617096,
+        1.0
+      ],
+      "min": [
+        -0.34239575266838074,
+        -0.503139078617096,
+        0.864205539226532
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6084,
+      "componentType": 5125,
+      "count": 24576,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 122952,
+      "componentType": 5126,
+      "count": 905,
+      "max": [
+        3.5807299613952637,
+        2.0947799682617188,
+        0.07891999930143356
+      ],
+      "min": [
+        -3.5807299613952637,
+        -1.9306000471115112,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 133812,
+      "componentType": 5126,
+      "count": 905,
+      "max": [
+        0.9999767541885376,
+        0.9977850914001465,
+        1.0
+      ],
+      "min": [
+        -0.9999767541885376,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 104388,
+      "componentType": 5125,
+      "count": 1785,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Ian Dowson (https://sketchfab.com/eonie316)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/batman-1989-logo-b15d3d63097946959dd4ba76edf1fdb6",
+      "title": "Batman 1989 Logo"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 111528,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144672,
+      "byteOffset": 111528,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 256200,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Badge",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "In-Edge",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.04128206684788649,
+          0.044472945422899056,
+          0.061168677160403105,
+          1.0
+        ],
+        "roughnessFactor": 0.12240663170814514
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Badge1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.19413198274092866,
+          0.0,
+          1.0
+        ],
+        "roughnessFactor": 0.21999999999999997
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Badge_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "InnerRing_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "BatLogo_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        -0.8363200000000001,
+        -0.039950000000000006,
+        0.54678,
+        0.0,
+        -0.5438200000000001,
+        -0.06593000000000002,
+        -0.8366100000000001,
+        0.0,
+        0.06947000000000002,
+        -0.99702,
+        0.03341000000000001,
+        0.0,
+        0.27895000000000003,
+        -5.4664,
+        3.02305,
+        1.0
+      ],
+      "name": "Lamp"
+    },
+    {
+      "name": "Lamp"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.00259,
+        1.0
+      ],
+      "name": "Badge"
+    },
+    {
+      "mesh": 0,
+      "name": "Badge_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.9686300000000001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9686300000000001,
+        0.0,
+        0.0,
+        -0.9686300000000001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.00259,
+        1.0
+      ],
+      "name": "InnerRing"
+    },
+    {
+      "mesh": 1,
+      "name": "InnerRing_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.00259,
+        1.0
+      ],
+      "name": "BatLogo"
+    },
+    {
+      "mesh": 2,
+      "name": "BatLogo_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

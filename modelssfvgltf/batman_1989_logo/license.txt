@@ -1,0 +1,11 @@
+Model Information:
+* title:	Batman 1989 Logo
+* source:	https://sketchfab.com/3d-models/batman-1989-logo-b15d3d63097946959dd4ba76edf1fdb6
+* author:	Ian Dowson (https://sketchfab.com/eonie316)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Batman 1989 Logo" (https://sketchfab.com/3d-models/batman-1989-logo-b15d3d63097946959dd4ba76edf1fdb6) by Ian Dowson (https://sketchfab.com/eonie316) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

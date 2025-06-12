@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cthulhu Free 3D Printable Miniature
+* source:	https://sketchfab.com/3d-models/cthulhu-free-3d-printable-miniature-f91243fac5ac48578844dd3b588bd434
+* author:	TheSurrealFactory (https://sketchfab.com/TheSurrealFactory)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cthulhu Free 3D Printable Miniature" (https://sketchfab.com/3d-models/cthulhu-free-3d-printable-miniature-f91243fac5ac48578844dd3b588bd434) by TheSurrealFactory (https://sketchfab.com/TheSurrealFactory) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,8 @@
+Model Information:
+* title:	PS1 | Mech
+* source:	https://sketchfab.com/3d-models/ps1-mech-b59fefc82c104feaa731455a9864f8d4
+* author:	Kuptchi (https://sketchfab.com/cotrus)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

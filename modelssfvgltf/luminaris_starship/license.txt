@@ -1,0 +1,11 @@
+Model Information:
+* title:	Luminaris Starship
+* source:	https://sketchfab.com/3d-models/luminaris-starship-b8001c7cf83240f383ccdbe75094e468
+* author:	iggy-design (https://sketchfab.com/iggy-design)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Luminaris Starship" (https://sketchfab.com/3d-models/luminaris-starship-b8001c7cf83240f383ccdbe75094e468) by iggy-design (https://sketchfab.com/iggy-design) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

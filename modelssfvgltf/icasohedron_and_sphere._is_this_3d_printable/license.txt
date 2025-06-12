@@ -1,0 +1,11 @@
+Model Information:
+* title:	Icasohedron And Sphere. Is this 3d printable?
+* source:	https://sketchfab.com/3d-models/icasohedron-and-sphere-is-this-3d-printable-b82c649370184697b4953416a779b883
+* author:	Mike Rowley (https://sketchfab.com/scrumpy26)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Icasohedron And Sphere. Is this 3d printable?" (https://sketchfab.com/3d-models/icasohedron-and-sphere-is-this-3d-printable-b82c649370184697b4953416a779b883) by Mike Rowley (https://sketchfab.com/scrumpy26) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

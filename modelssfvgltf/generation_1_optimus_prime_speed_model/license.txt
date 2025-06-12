@@ -1,0 +1,11 @@
+Model Information:
+* title:	Generation 1 Optimus Prime [Speed Model]
+* source:	https://sketchfab.com/3d-models/generation-1-optimus-prime-speed-model-c9d9dcb5d3494eb0bba8c1b90d18a80c
+* author:	ZackXevious (https://sketchfab.com/yktg_zx)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Generation 1 Optimus Prime [Speed Model]" (https://sketchfab.com/3d-models/generation-1-optimus-prime-speed-model-c9d9dcb5d3494eb0bba8c1b90d18a80c) by ZackXevious (https://sketchfab.com/yktg_zx) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

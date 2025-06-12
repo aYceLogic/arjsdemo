@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dragon Ball Z SHENLONG
+* source:	https://sketchfab.com/3d-models/dragon-ball-z-shenlong-ee561e95bd9642f193fd09e8058f6c2f
+* author:	placebo_vscure (https://sketchfab.com/placebo_vscure)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dragon Ball Z SHENLONG" (https://sketchfab.com/3d-models/dragon-ball-z-shenlong-ee561e95bd9642f193fd09e8058f6c2f) by placebo_vscure (https://sketchfab.com/placebo_vscure) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
