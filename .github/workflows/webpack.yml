@@ -27,7 +27,6 @@ jobs:
         ls -la
 
     - name: Build
-      working-directory: frontend    # <- set this to the folder that contains package.json
       run: |
-        npm ci
+        npm install
         npx webpack
