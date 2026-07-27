@@ -26,7 +26,11 @@ jobs:
         pwd
         ls -la
 
+    - name: SCANOSS Code Scan Action
+      uses: scanoss/gha-code-scan@v1.7.0
+
     - name: Build
       run: |
-        npm install
-        npx webpack
+        npm --ignore-scripts install
+        npm ci --ignore-scripts
+        npx --ignore-scripts webpack
