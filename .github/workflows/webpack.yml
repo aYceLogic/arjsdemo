@@ -54,4 +54,4 @@ jobs:
       run: |
         npm --ignore-scripts install
         npm ci --ignore-scripts
-        npx --ignore-scripts webpack
+        npm run build
