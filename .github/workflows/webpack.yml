@@ -6,7 +6,25 @@ on:
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+  actions: read
+
 jobs:
+  scanoss-code-scan:
+    name: SCANOSS Code Scan 
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Run SCANOSS Code Scan
+        id: scanoss-code-scan-step
+        uses: scanoss/gha-code-scan@v1
+
   build:
     runs-on: ubuntu-latest
     strategy:
@@ -25,9 +43,6 @@ jobs:
       run: |
         pwd
         ls -la
-
-    - name: SCANOSS Code Scan Action
-      uses: scanoss/gha-code-scan@v1.7.0
 
     - name: Build
       run: |
