@@ -29,7 +29,7 @@ jobs:
 
       - name: Run SCANOSS Code Scan
         id: scanoss-code-scan-step
-        uses: scanoss/gha-code-scan@v1
+        uses: scanoss/gha-code-scan@d3c8f659544885761c8e3b96743ea14b830474aa # v1.7.0
 
   build:
     runs-on: ubuntu-latest
