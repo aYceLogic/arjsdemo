@@ -19,6 +19,7 @@ spec:
         image: aycelogic/arjs:latest
         imagePullPolicy: Always
         securityContext:
+          allowPrivilegeEscalation: false
           capabilities:
             drop:
             - NET_RAW
