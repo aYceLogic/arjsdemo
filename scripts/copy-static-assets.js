@@ -12,7 +12,11 @@ function copyRecursive(src, dest) {
   const entries = fs.readdirSync(src, { withFileTypes: true });
 
   for (const entry of entries) {
-    const srcPath = path.join(src, entry.name);
+    const srcPath = path.resolve(src, entry.name);
+    const srcRelative = path.relative(src, srcPath);
+    if (srcRelative.startsWith('..') || path.isAbsolute(srcRelative)) {
+      continue;
+    }
     const destPath = path.join(dest, entry.name);
 
     if (entry.isDirectory()) {
