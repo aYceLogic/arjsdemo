@@ -13,6 +13,29 @@ Copy Files to Directory on device
 Print kanji.png, or display on an alternative device
 Open 127.0.0.1 on device with installed com.phlox.simpleserver in Chrome
 
+### Docker Hub publish
+
+1. Create a Docker Hub repository named `aycelogic/arjs` (if you control that account).
+2. Login locally before pushing:
+
+```
+docker login
+```
+
+3. Build and tag the image locally (replace `tagname`):
+
+```
+sh scripts/build-and-tag.sh tagname
+```
+
+4. Push the image to Docker Hub:
+
+```
+docker push aycelogic/arjs:tagname
+```
+
+For CI: set `DOCKER_HUB_USERNAME` and `DOCKER_HUB_ACCESS_TOKEN` in repository Secrets to enable the Actions workflow `.github/workflows/release-docker-hub.yml` to publish on release.
+
 ### Example models sourced from and scaled in the html files
 animated_bee_flying_landing_loo
     https://sketchfab.com/3d-models/animated-bee-flying-landing-loop-a39c45911dab421da0de51672c7a8f62
