@@ -36,6 +36,71 @@ docker push aycelogic/arjs:tagname
 
 For CI: set `DOCKER_HUB_USERNAME` and `DOCKER_HUB_ACCESS_TOKEN` in repository Secrets to enable the Actions workflow `.github/workflows/release-docker-hub.yml` to publish on release.
 
+### Kubernetes Deployment
+
+A Kubernetes deployment configuration is provided in `k8s-deployment.yaml` for containerized deployment and scaling.
+
+#### Prerequisites
+- Kubernetes cluster (v1.20+)
+- Docker image built and available (locally or in a registry)
+
+#### Deployment Contents
+- **Deployment**: 3 replicas of the arjsdemo nginx container with health checks
+- **Service**: LoadBalancer type service exposing port 80
+
+#### Quick Start
+
+1. Build and tag your Docker image:
+```bash
+docker build -t arjsdemo:latest .
+```
+
+2. Deploy to Kubernetes:
+```bash
+kubectl apply -f k8s-deployment.yaml
+```
+
+3. Check deployment status:
+```bash
+kubectl get deployments
+kubectl get services
+kubectl get pods
+```
+
+4. Access the application:
+```bash
+kubectl port-forward svc/arjsdemo-service 8080:80
+# Visit http://localhost:8080
+```
+
+#### Production Recommendations
+- Push Docker image to a registry (Docker Hub, ECR, GCR, etc.)
+- Update `imagePullPolicy` to `Always` in the deployment
+- Use specific image tags instead of `latest`
+- Replace LoadBalancer service with ClusterIP + Ingress
+- Adjust resource requests/limits based on your workload
+- Configure Horizontal Pod Autoscaler (HPA) for scaling
+- Add namespace and RBAC policies
+
+#### Scaling
+
+To scale the deployment:
+```bash
+kubectl scale deployment arjsdemo --replicas=5
+```
+
+Or edit the deployment:
+```bash
+kubectl edit deployment arjsdemo
+```
+
+#### Cleanup
+
+To remove the deployment and service:
+```bash
+kubectl delete -f k8s-deployment.yaml
+```
+
 ### Example models sourced from and scaled in the html files
 animated_bee_flying_landing_loo
     https://sketchfab.com/3d-models/animated-bee-flying-landing-loop-a39c45911dab421da0de51672c7a8f62
