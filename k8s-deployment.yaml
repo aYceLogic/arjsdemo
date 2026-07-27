@@ -18,6 +18,10 @@ spec:
       - name: arjsdemo
         image: aycelogic/arjs:latest
         imagePullPolicy: Always
+        securityContext:
+          capabilities:
+            drop:
+            - NET_RAW
         ports:
         - containerPort: 80
           name: http
