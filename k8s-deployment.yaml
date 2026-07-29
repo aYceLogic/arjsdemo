@@ -14,10 +14,17 @@ spec:
       labels:
         app: arjsdemo
     spec:
+      securityContext:
+        runAsNonRoot: true
       containers:
       - name: arjsdemo
         image: aycelogic/arjs:latest
         imagePullPolicy: Always
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - NET_RAW
         ports:
         - containerPort: 80
           name: http

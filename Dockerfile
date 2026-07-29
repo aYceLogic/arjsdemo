@@ -5,6 +5,8 @@ COPY . /usr/share/nginx/html/
 # Render injects PORT at runtime; default keeps local runs working.
 ENV PORT=10000
 
+RUN adduser -D -u 1000 appuser && chown -R 1000:1000 /usr/share/nginx/html
+
 RUN cat > /entrypoint.sh << 'EOF'
 #!/bin/sh
 set -e
