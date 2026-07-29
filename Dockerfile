@@ -2,6 +2,33 @@ FROM nginx:1.27-alpine
 
 COPY . /usr/share/nginx/html/
 
-EXPOSE 80
+# Render injects PORT at runtime; default keeps local runs working.
+ENV PORT=10000
 
-CMD ["nginx", "-g", "daemon off;"]
+RUN cat > /entrypoint.sh << 'EOF'
+#!/bin/sh
+set -e
+
+cat > /etc/nginx/conf.d/default.conf << NGINX_CONF
+server {
+	listen ${PORT};
+	listen [::]:${PORT};
+	server_name _;
+
+	root /usr/share/nginx/html;
+	index index.html;
+
+	location / {
+		try_files \$uri \$uri/ /index.html;
+	}
+}
+NGINX_CONF
+
+exec nginx -g 'daemon off;'
+EOF
+
+RUN chmod +x /entrypoint.sh
+
+EXPOSE 10000
+
+ENTRYPOINT ["/entrypoint.sh"]
